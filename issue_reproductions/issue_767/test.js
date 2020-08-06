@@ -8,14 +8,7 @@ const duration = 600;
 if (true) {
     console.log(`Test completed -> ${startTime.toISOString()} -> ${duration / 1000}
     sec`);
-    let b = `
-    lots
-    and
-    lots
-    and
-    lots
-    and
-    lots
+    let b = `lots
     of
     lines
     ""
