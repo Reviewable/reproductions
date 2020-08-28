@@ -1,0 +1,11 @@
+https://github.com/Reviewable/Reviewable/issues/768
+
+Overview
+When embedding a Google Doc in Github, all seems to work fine. Link works.
+When this PR is opened in Reviewable, when you enter the link, access is denied.
+Since the actual link is identical, I can only assume this is some referrer issue.
+
+Scenarios
+This happens when the link is either in the body of the PR on as a comment.
+This happens when link is (MD) embedded as well as just inserted as text.
+
